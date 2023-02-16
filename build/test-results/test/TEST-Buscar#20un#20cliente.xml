@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Buscar un cliente" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-02-16T20:43:40" hostname="DESKTOP-GTDSGL0" time="27.145">
+  <properties/>
+  <testcase name="Buscar un cliente exitoso" classname="Buscar un cliente" time="27.145">
+    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.BuscarClienteStep.abrirNorthwindSection(BuscarClienteStep.java:16)
+	at definitions.BuscarClienteDefinition.el_usuario_introduce_un_de_cliente_en_la_barra_de_busqueda(BuscarClienteDefinition.java:14)
+	at ✽.el usuario introduce un &quot;ALFKI&quot; de cliente en la barra de busqueda(src/test/resources/features/buscarCliente.feature:9)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[feb. 16, 2023 3:43:40 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized --disable..., goog:chromeOptions: {args: [--start-maximized, --disable-popup-blocking], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: }
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 46160
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1676580222.928][WARNING]: This version of ChromeDriver has not been tested with Chrome version 110.
+feb. 16, 2023 3:43:42 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Buscar un cliente exitoso
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Y el usuario introduce un "ALFKI" de cliente en la barra de busqueda
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+]]></system-err>
+</testsuite>

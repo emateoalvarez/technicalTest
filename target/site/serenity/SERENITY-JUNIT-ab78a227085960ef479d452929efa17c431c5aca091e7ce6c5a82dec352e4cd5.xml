@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Buscar un cliente" skipped="0" tests="1" time="27.15" timestamp="2023-02-16 03:43:40"><testcase name="Buscar un cliente exitoso"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+steps.BuscarClienteStep.abrirNorthwindSection(BuscarClienteStep.java:16)&#13;
+definitions.BuscarClienteDefinition.el_usuario_introduce_un_de_cliente_en_la_barra_de_busqueda(BuscarClienteDefinition.java:14)&#13;
+✽.el usuario introduce un "ALFKI" de cliente en la barra de busqueda(src/test/resources/features/buscarCliente.feature:9)&#13;
+</system-err></testcase></testsuite>
